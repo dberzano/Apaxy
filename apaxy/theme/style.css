@@ -117,6 +117,26 @@ tr.parent a[href^="/"] {
     Footer
 \*------------------------------------*/
 .footer {
+	margin-top:50px;
 	text-align:center;
 	font-size:.75em;
+}
+/*------------------------------------*\
+    ALICE Addenda
+\*------------------------------------*/
+.aliceheader {
+	height:150px;
+	padding-top:110px;
+	text-align:center;
+	font-size:1.5em;
+	color:#436691; /*mycol:darkblue*/
+	background-image:url('/apaxy/img/alice-logo.png');
+	background-repeat:no-repeat;
+	background-position: 50% 0%;
+}
+.footer a {
+	color:#15355C; /*mycol:darkerblue*/
+}
+.footer a:hover {
+	color:#436691; /*mycol:darkblue*/;
 }
